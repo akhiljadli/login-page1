@@ -1,0 +1,138 @@
+#container {
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    margin-top: 105px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px black;
+    transition: box-shadow 0.5s ease-in-out 0.2s;
+}
+
+#container h2 {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 116px;
+}
+
+form {
+    position: absolute;
+    top: 200px;
+    margin-left: 20px;
+}
+
+form label {
+    font-size: 13px;
+    columns: black;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 255px;
+}
+
+#a1 {
+    font-size: 12px;
+    margin-left: 162px;
+    color: black;
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#button1 {
+    width: 255px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.section1 #p1 {
+    margin-top: 300px;
+    margin-left: -75px;
+    font-size: 11px;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3b5998;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-color: black;
+    margin-top: 5px;
+    margin-left: -100px;
+    box-shadow: 1px 3px 7px black;
+    transition: 1s;
+}
+
+.goggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d31515;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-color: black;
+    margin-top: 5px;
+    margin-left: 3px;
+    box-shadow: 1px 3px 7px black;
+    transition: 1s;
+}
+
+.twitter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-color: black;
+    margin-top: 5px;
+    margin-left: 3px;
+    box-shadow: 1px 3px 7px black;
+    transition: 1s;
+}
+
+#p2 {
+    margin-top: 420px;
+    margin-left: -108px;
+    font-size: 11px;
+}
+
+#a2 {
+    color: black;
+    text-decoration: none;
+    margin-left: -90px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.facebook:hover {
+    box-shadow: 4px 6px 14px black;
+}
+
+.goggle:hover {
+    box-shadow: 4px 6px 14px black;
+}
+
+.twitter:hover {
+    box-shadow: 4px 6px 14px black;
+}
+
+#container:hover {
+    box-shadow: 0px 4px 15px black;
+
+}
